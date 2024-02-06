@@ -1,1 +1,1 @@
-## pathfindingForDiverseEnvironments
+## pathFindingForDiverseEnvironments
