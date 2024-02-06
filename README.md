@@ -24,5 +24,15 @@ This file contains a modified implementation of the A* algorithm. In contrast to
 This file contains a modified implementation of the A* algorithm tailored for robotic applications in a 2.5D map, where the matrix values represent height information in a given area. The algorithm introduces a parameter K, representing the maximum allowable height difference between two adjacent cells. In other words, a path is considered viable between two cells if the height difference between them is less than or equal to the specified K value. This modification is specifically designed for navigating a 2.5D environment, where the algorithm adapts to the terrain's vertical variations while considering the user-defined threshold K.
 
 `start = (0,0) and goal = (4,8)`
-![Figure_2](https://github.com/abdulkadrtr/pathFindingForDiverseEnvironments/assets/87595266/fd54c774-dc36-4fcb-8a7a-1aade974dc6c)
-![Figure_3](https://github.com/abdulkadrtr/pathFindingForDiverseEnvironments/assets/87595266/7f3d8311-1404-4a73-b8e5-f18a61d82e31)
+
+<img src="https://github.com/abdulkadrtr/pathFindingForDiverseEnvironments/assets/87595266/7f3d8311-1404-4a73-b8e5-f18a61d82e31" width="550" height="450" />
+
+## astar-3d.py
+
+This file encapsulates an application of the A* algorithm in a three-dimensional environment. The algorithm navigates through a 3D matrix using 26 different directions and considers cells with a value of 0 as the path and cells with a value of 1 as obstacles. 
+
+`start = (0,0,0) and goal = (8,8,8)`
+
+<img src="https://github.com/abdulkadrtr/pathFindingForDiverseEnvironments/assets/87595266/fd54c774-dc36-4fcb-8a7a-1aade974dc6c" width="550" height="450" />
+
+
